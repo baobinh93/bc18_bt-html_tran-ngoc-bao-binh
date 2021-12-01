@@ -1,0 +1,104 @@
+/* ------- start header ----------- */
+.header img {
+  width: 100px;
+  height: 100px;
+}
+
+.header h1 {
+  background-color: red;
+  color: white;
+  text-align: left;
+}
+/* ------- end header ---------- */
+/* ------- start navbar -------- */
+.navbar {
+  font-size: 20px;
+}
+/* ------- end navbar ---------- */
+/* ------- start intro --------- */
+#intro {
+  color: white;
+  background-color: brown;
+}
+#intro h2 {
+  text-align: center;
+  font-size: 40px;
+}
+#intro p {
+  font-size: 30px;
+  text-align: justify;
+}
+#intro p b {
+  color: black;
+}
+#intro img {
+  width: 50%;
+}
+/* ------- end intro ----------- */
+/* ------- start development --- */
+#development {
+  color: white;
+  background-color: brown;
+}
+#development h1 {
+  text-align: center;
+  font-size: 40px;
+}
+#development ul {
+  font-size: 25px;
+}
+#development img {
+  width: 50%;
+}
+/* ------- end development ----- */
+/* ------- start menu --- */
+.menu h1 {
+  text-align: center;
+}
+.menu table {
+  width: 900px;
+  height: 800px;
+  margin: 0 auto;
+}
+.menu table,
+.menu th,
+.menu td {
+  border: 1px solid;
+}
+#r2 td:last-child,
+#r4 td:last-child,
+#r6 td:last-child,
+#r8 td:nth-child(3),
+#r8 td:nth-child(4),
+#r9 td:last-child {
+  text-align: center;
+}
+#r3 td,
+#r5 td,
+#r7 td {
+  text-align: right;
+}
+#r2 td:first-child {
+  background-image: url(img/greentea.jpg);
+  text-align: right;
+}
+
+#r4 td:first-child {
+  background-image: url(img/blacktea.jpg);
+  text-align: center;
+}
+
+#r6 td:first-child {
+  background-image: url(img/olongtea.jpg);
+}
+
+#r8 td:first-child {
+  background-image: url(img/fruit.jpg);
+  text-align: center;
+}
+
+#r11 td:first-child {
+  background-image: url(img/milktea.png);
+  text-align: center;
+}
+/* ------- end menu ----- */
